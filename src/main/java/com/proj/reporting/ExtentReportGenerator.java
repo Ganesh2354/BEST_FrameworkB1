@@ -11,9 +11,8 @@ public class ExtentReportGenerator {
 	public static ExtentReports extentReportGenerator(String reportName)
 	{
 		
-		String path="C:\\Users\\Ganesh Dandekar\\Eclipse2023-03"
-				+ "\\IDE\\eclipse-workspace\\BEST_FrameWork\\src"
-				+ "\\main\\java\\Reports\\"+reportName+".html";
+		String path="C:\\Users\\Ganesh Dandekar\\Eclipse2023-03\\IDE\\eclipse-workspace"
+				+ "\\BEST_FrameWork\\TestReports\\"+reportName+".html";
 		
 		ExtentSparkReporter report=new ExtentSparkReporter(path);
 		report.config().setDocumentTitle("NaukriWebApp");
