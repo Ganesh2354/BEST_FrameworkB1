@@ -23,7 +23,7 @@ public class TC001_NaukriLogin extends BaseClass{
 		
 		lppom=new  LoginPagePOM(driver);
 		lppom.clickLoginBtn();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 		lppom.enterUserName();
 		Thread.sleep(3000);
 		lppom.enterPassword();
@@ -32,7 +32,7 @@ public class TC001_NaukriLogin extends BaseClass{
 		Thread.sleep(3000);
 		CaptureScreenShot.getScreenShotOfPage(driver, "Login Naukri");
 		System.out.println("Screenshot captured and stored: "+CaptureScreenShot.getscreenshotPath());
-		Thread.sleep(7000);
+		Thread.sleep(4000);
 		//Screenshot ---> Name ---> AfterLoginPage
 		
 	 	
