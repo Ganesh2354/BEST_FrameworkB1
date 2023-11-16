@@ -14,7 +14,7 @@
 				<configuration>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>MasterSuite.xml</suiteXmlFile>
+						<suiteXmlFile>NaukriTestCaseExecutor.xml</suiteXmlFile>
 					</suiteXmlFiles>
 
 				</configuration>

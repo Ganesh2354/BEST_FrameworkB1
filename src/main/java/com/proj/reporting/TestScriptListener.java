@@ -11,7 +11,7 @@ import com.proj.utilities.CaptureScreenShot;
 
 public class TestScriptListener implements ITestListener{
 	
-	ExtentReports extent=ExtentReportGenerator.extentReportGenerator("TestJenkinsJob");
+	ExtentReports extent=ExtentReportGenerator.extentReportGenerator("NaukriApp");
 	ThreadLocal<ExtentTest> extentTest=new ThreadLocal<ExtentTest>();
 	ExtentTest test;
 

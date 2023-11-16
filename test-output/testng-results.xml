@@ -2,16 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-14T20:00:18 IST" name="FBSuite" finished-at="2023-11-14T20:00:18 IST" duration-ms="0">
+  <suite started-at="2023-11-16T16:44:00 IST" name="Suite" finished-at="2023-11-16T16:45:19 IST" duration-ms="79182">
     <groups>
     </groups>
-  </suite> <!-- FBSuite -->
-  <suite started-at="2023-11-14T19:58:31 IST" name="Suite" finished-at="2023-11-14T20:00:16 IST" duration-ms="105044">
-    <groups>
-    </groups>
-    <test started-at="2023-11-14T19:58:31 IST" name="Test" finished-at="2023-11-14T20:00:16 IST" duration-ms="105044">
+    <test started-at="2023-11-16T16:44:00 IST" name="Test" finished-at="2023-11-16T16:45:19 IST" duration-ms="79182">
       <class name="com.proj.test.scripts.TC001_NaukriLogin">
-        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.proj.test.scripts.TC001_NaukriLogin@71687585]" started-at="2023-11-14T19:58:31 IST" name="browserSetup" finished-at="2023-11-14T19:59:52 IST" duration-ms="81399" status="PASS">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:com.proj.test.scripts.TC001_NaukriLogin@5276d6ee]" started-at="2023-11-16T16:44:00 IST" name="browserSetup" finished-at="2023-11-16T16:44:51 IST" duration-ms="50580" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="loginNaukri()[pri:0, instance:com.proj.test.scripts.TC001_NaukriLogin@71687585]" started-at="2023-11-14T19:59:52 IST" name="loginNaukri" finished-at="2023-11-14T20:00:15 IST" duration-ms="22661" status="PASS">
+        <test-method signature="loginNaukri()[pri:0, instance:com.proj.test.scripts.TC001_NaukriLogin@5276d6ee]" started-at="2023-11-16T16:44:51 IST" name="loginNaukri" finished-at="2023-11-16T16:45:16 IST" duration-ms="24774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginNaukri -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.proj.test.scripts.TC001_NaukriLogin@71687585]" started-at="2023-11-14T20:00:15 IST" name="closeBrowser" finished-at="2023-11-14T20:00:16 IST" duration-ms="902" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.proj.test.scripts.TC001_NaukriLogin@5276d6ee]" started-at="2023-11-16T16:45:16 IST" name="closeBrowser" finished-at="2023-11-16T16:45:19 IST" duration-ms="3305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
