@@ -11,8 +11,7 @@ public class ExtentReportGenerator {
 	public static ExtentReports extentReportGenerator(String reportName)
 	{
 		
-		String path=System.getProperty("user.dir")
-				+ "\\"+reportName+".html";
+		String path=System.getProperty("user.dir")+"\\TestReports\\"+reportName+".html";
 		
 		ExtentSparkReporter report=new ExtentSparkReporter(path);
 		report.config().setDocumentTitle("NaukriWebApp");
