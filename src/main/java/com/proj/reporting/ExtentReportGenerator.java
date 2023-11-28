@@ -6,12 +6,13 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportGenerator {
 
-	
+	//C:/Users/Ganesh Dandekar/Eclipse2023-03/IDE/eclipse-workspace/BEST_FrameWork/TestReports
 	
 	public static ExtentReports extentReportGenerator(String reportName)
 	{
-		
-		String path=System.getProperty("user.dir")+"\\TestReports\\"+reportName+".html";
+		//System.getProperty("user.dir")+
+		String path="C:\\Users\\Ganesh Dandekar\\Eclipse2023-03\\IDE\\eclipse-workspace\\BEST_FrameWork"
+				+ "\\TestReports\\"+reportName+".html";
 		
 		ExtentSparkReporter report=new ExtentSparkReporter(path);
 		report.config().setDocumentTitle("NaukriWebApp");
